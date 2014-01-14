@@ -191,6 +191,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Duchy Software";
 				TargetAttributes = {
+					E21CA7CB18857330005E68CD = {
+						DevelopmentTeam = ZPM2H2GDXG;
+					};
 					E21CA7E618857330005E68CD = {
 						TestTargetID = E21CA7CB18857330005E68CD;
 					};
@@ -361,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BotDemo/BotDemo-Prefix.pch";
 				INFOPLIST_FILE = "BotDemo/BotDemo-Info.plist";
@@ -374,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BotDemo/BotDemo-Prefix.pch";
 				INFOPLIST_FILE = "BotDemo/BotDemo-Info.plist";
@@ -443,6 +448,7 @@
 				E21CA7FA18857330005E68CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E21CA7FB18857330005E68CD /* Build configuration list for PBXNativeTarget "BotDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +457,7 @@
 				E21CA7FD18857330005E68CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
