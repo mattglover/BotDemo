@@ -14,6 +14,10 @@ describe(@"DemoLabel", ^{
         it(@"should not be nil", ^{
             [[objectUnderTest shouldNot] beNil];
         });
+        
+        it(@"should have a default placeholder", ^{
+            [[objectUnderTest.text should] equal:@"Default Placeholder"];
+        });
     });
 });
 
