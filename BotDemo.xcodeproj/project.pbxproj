@@ -369,6 +369,7 @@
 				GCC_PREFIX_HEADER = "BotDemo/BotDemo-Prefix.pch";
 				INFOPLIST_FILE = "BotDemo/BotDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "67E06D43-3033-43E9-BA42-816D329D5F1D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -383,6 +384,7 @@
 				GCC_PREFIX_HEADER = "BotDemo/BotDemo-Prefix.pch";
 				INFOPLIST_FILE = "BotDemo/BotDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "67E06D43-3033-43E9-BA42-816D329D5F1D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
